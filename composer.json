@@ -1,0 +1,15 @@
+{
+    "name": "eflix/watch-to-earn",
+    "description": "Eflix - Watch videos and earn money platform",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

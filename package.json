@@ -1,0 +1,55 @@
+{
+    "name": "eflix-watch-to-earn",
+    "version": "1.0.0",
+    "description": "Eflix - Watch videos and earn money platform",
+    "main": "index.php",
+    "author": "Eflix Team",
+    "license": "MIT",
+    "private": true,
+    
+    "scripts": {
+        "dev": "echo 'Starting PHP server...' && php -S localhost:8000",
+        "build": "echo 'Building assets...'",
+        "start": "php -S 0.0.0.0:8000",
+        "vercel-build": "echo 'Building for Vercel...'"
+    },
+    
+    "dependencies": {
+        "@supabase/supabase-js": "^2.39.0",
+        "alpinejs": "^3.13.3",
+        "chart.js": "^4.4.0",
+        "axios": "^1.6.2"
+    },
+    
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.7",
+        "@tailwindcss/typography": "^0.5.10",
+        "autoprefixer": "^10.4.16",
+        "postcss": "^8.4.32",
+        "tailwindcss": "^3.3.6",
+        "vite": "^5.0.8"
+    },
+    
+    "engines": {
+        "node": ">=18.0.0",
+        "php": ">=7.4"
+    },
+    
+    "keywords": [
+        "watch-to-earn",
+        "video-ads",
+        "earn-money",
+        "php",
+        "supabase"
+    ],
+    
+    "homepage": "https://eflix.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/eflix-php.git"
+    },
+    
+    "bugs": {
+        "url": "https://github.com/yourusername/eflix-php/issues"
+    }
+}
